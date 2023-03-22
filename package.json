@@ -1,16 +1,32 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "redmine",
-  "title": "redmine",
+  "title": "Redmine",
   "description": "This extension is created for updating your redmine time entries",
   "icon": "command-icon.png",
   "author": "thecoorum",
   "license": "MIT",
+  "preferences": [
+    {
+      "name": "redmineUrl",
+      "title": "Redmine URL",
+      "description": "Redmine URL",
+      "type": "textfield",
+      "required": true
+    },
+    {
+      "name": "redmineApiKey",
+      "title": "Redmine API Key",
+      "description": "Redmine API Key",
+      "type": "password",
+      "required": true
+    }
+  ],
   "commands": [
     {
       "name": "index",
-      "title": "Submit time entry",
-      "description": "",
+      "title": "Time Entries",
+      "description": "Update your time entries with this command",
       "mode": "view"
     }
   ],
