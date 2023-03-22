@@ -1,6 +1,6 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
-  "name": "redmine",
+  "name": "redmine-time-entries",
   "title": "Redmine",
   "description": "This extension is created for updating your redmine time entries",
   "icon": "command-icon.png",

@@ -1,3 +1,3 @@
-# redmine Changelog
+# Redmine Changelog
 
-## [Initial Version] - 2023-03-21
+## [Initial Version] - 2022-04-17
